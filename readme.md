@@ -12,3 +12,4 @@
 ## Tests
 
 - Ceci est un test de commit par `maxperrot`.
+- Ceci est un second test de commit par `maxperrot`.
