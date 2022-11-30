@@ -8,3 +8,7 @@
 | Ethan Chevalier | Developpeur Web | Page séjour détaillé |
 | Fatou Thiam | Chef de projet | Page d'accueil |
 | Maxime Perrot | Developpeur Web | Page hebérgement détaillé |
+
+## Tests
+
+- Ceci est un test de commit par `maxperrot`.
