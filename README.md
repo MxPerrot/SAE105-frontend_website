@@ -5,6 +5,6 @@
 | Nom | Rôle | Page |
 -|-|-
 | Diane Monéger | Designer Web | Page catalogue de séjour |
-| Ethan Chevalier | Developpeur Web | Page séjour détaillé |
+| ~~Ethan Chevalier~~ | Developpeur Web | Page séjour détaillé |
 | Fatou Thiam | Chef de projet | Page d'accueil |
 | Maxime Perrot | Developpeur Web | Page hebérgement détaillé |
