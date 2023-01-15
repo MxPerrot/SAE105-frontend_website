@@ -12,9 +12,9 @@
             <img src="images/logo.png" alt="Logo de Sport Koh">
         </header>
 
-        <nav>
+        <nav class="normal">
               <ul>
-                <li><a href="sejour.html">Séjours</a></li>
+                <li><a href="catalogue.html">Séjours</a></li>
                 <li><a href="act.html">Activités</a></li>
                 <li><a href="infos.html">A propos</a></li>
                 <li><a href="contacts.html">Contacts </a></li>
@@ -22,12 +22,69 @@
               </ul>  
         </nav>
 
+        <nav class="burger" id="burger">
+            <a id="closeBtn" href="#" class="close">&times;</a>
+            <ul>
+              <li><a href="sejour.html">Séjours</a></li>
+              <li><a href="act.html">Activités</a></li>
+              <li><a href="infos.html">A propos</a></li>
+              <li><a href="contacts.html">Contacts </a></li>
+              <li><a href="avis.html">Avis</a></li>
+            </ul>  
+       </nav>
+
+       <a href="#" id="openBtn">
+        <span class="burger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </a>
+
+
+       <script>
+            var sidenav = document.getElementById("burger");
+            var openBtn = document.getElementById("openBtn");
+            var closeBtn = document.getElementById("closeBtn");
+            
+            openBtn.onclick = openNav;
+            closeBtn.onclick = closeNav;
+            
+            
+            function openNav() {
+            sidenav.classList.add("active");
+            }
+            
+           
+            function closeNav() {
+            sidenav.classList.remove("active");
+            }
+       </script>
+
+
         <main>
             <section>
                 <article>
                 <h2>Nos séjours à la mer</h2>
                     <img src="images/paddle.webp" alt="Paddle" class="mer">
-                    <p> Notre séjour "Plongée au coeur des calanques corses" vous propose une variété d'activités sportives.</p>
+                    <p>Nos séjours à la mer offrent la possibilité de pratiquer de nombreux sports tout en profitant de l'air marin.</p>
+                    <table>
+                        <tr>
+                          <th>Destination</th>
+                          <th>Prix</th>
+                          <th>Dates</th>
+                        </tr>
+                        <tr>
+                          <td>Corse</td>
+                          <td>600€</td>
+                          <td>05/07/2023 - 12/07/2023</td>
+                        </tr>
+                        <tr>
+                          <td>Bretagne</td>
+                          <td>500€</td>
+                          <td>18/08/2023 - 25/08/2023</td>
+                        </tr>
+                      </table>
                 </article>
                 
                 <article>
@@ -35,14 +92,49 @@
                     <div>
                         <h3>L'été</h3>
                         <img src="images/hiking.avif" alt="rando" class="mont">
-                        <p>Des randonnées, de l'escalade.</p>
+                        <p>En été, profitez des superbes paysages et de la température apropriée pour toutes les activités sportives !</p>
+                        <table>
+                            <tr>
+                              <th>Destination</th>
+                              <th>Prix</th>
+                              <th>Dates</th>
+                            </tr>
+                            <tr>
+                              <td>Massif Central</td>
+                              <td>450€</td>
+                              <td>03/06/2023 - 10/06/2023</td>
+                            </tr>
+                            <tr>
+                              <td>Alpes</td>
+                              <td>700€</td>
+                              <td>16/07/2023 - 23/07/2023</td>
+                            </tr>
+                          </table>
 
                     </div>
 
                     <div>
                         <h3>L'hiver</h3>
                         <img src="images/ski.avif" alt="ski" class="mont">
-                        <p>Du ski, du snowboard et du patin.</p>
+                        <p>Entre le ski, le snowboard et le patin, vous aurez toujours une activité disponible malgré le froid !</p>
+
+                        <table>
+                            <tr>
+                              <th>Destination</th>
+                              <th>Prix</th>
+                              <th>Dates</th>
+                            </tr>
+                            <tr>
+                              <td>Alpes</td>
+                              <td>800€</td>
+                              <td>30/01/2023 - 12/07/2023</td>
+                            </tr>
+                            <tr>
+                              <td>Vosges</td>
+                              <td>650€</td>
+                              <td>30/01/2023 - 12/07/2023</td>
+                            </tr>
+                          </table>
 
                     </div>
 
@@ -51,17 +143,32 @@
                 
                 <article>
                 <h2>Nos séjours à l'étranger</h2>
+                <img src="images/ballons.jpg" alt="rando" class="abroad">
                     <p>En plus des nombreux sports proposés, vous pourrez vous plonger dans une nouvelle culture.</p>
+                    <table>
+                        <tr>
+                          <th>Destination</th>
+                          <th>Prix</th>
+                          <th>Dates</th>
+                        </tr>
+                        <tr>
+                          <td>Grèce</td>
+                          <td>1600€</td>
+                          <td>01/07/2023 - 15/07/2023</td>
+                        </tr>
+                      </table>
                 </article>
             </section>
 
         </main>
 
         <footer>
-            <p>Mentions légales</p>
+            <p>Page crée à Lannion <br>
+               Université de Rennes
+            </p>
             <div class="reseau">
-                <a href="instagram.com"><img src="images/insta.png" alt="logo instagram"></a>
-                <a href="twitter.com"><img src="images/twitter.webp" alt="logo twitter"></a>
+                <a href="https://www.instagram.com"><img src="images/insta.png" alt="logo instagram"></a>
+                <a href="https://twitter.com"><img src="images/twitter.webp" alt="logo twitter"></a>
             </div>
         </footer>
     </body>
