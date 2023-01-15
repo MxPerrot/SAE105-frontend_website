@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Fatou THIAM 1E1">
+    <link rel="stylesheet" href="style_Fatou.css">
+    <script type="text/javascript" src="js/jquery-3.6.3.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <title>Fatou</title>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="./images/logo.png" alt="Logo de Sport Koh">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="sejour.html">Séjours</a></li>
+        <li><a href="act.html">Activités</a></li>
+        <li><a href="infos.html">A propos</a></li>
+        <li><a href="contacts.html">Contacts </a></li>
+        <li><a href="avis.html">Avis</a></li>
+      </ul>
+    </nav>
+  </header>
+    <section id="sect1">
+      <h1 class="main-title titre1">Nos séjours phares</h1>
+
+      <div class="carousel">
+
+        <div class="carousel__nav">
+        <span id="moveLeft" class="carousel__arrow">
+              <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+              </svg>
+          </span>
+          <span id="moveRight" class="carousel__arrow" >
+            <svg class="carousel__icon"  width="24" height="24" viewBox="0 0 24 24">
+              <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+            </svg>    
+          </span>
+        </div>
+
+        <div class="carousel-item carousel-item--1">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+              <h2 class="carousel-item__subtitle">Activité terrestre</h2>
+              <h1 class="carousel-item__title">BMX</h1>
+              <p class="carousel-item__description">Découvrez vous et dépassez vos limites grâce à une activité hors du commun</p>
+              <a href="#" class="carousel-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-item--2">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+              <h2 class="carousel-item__subtitle">Activité aquatique</h2>
+              <h1 class="carousel-item__title">Kayak</h1>
+              <p class="carousel-item__description">Découvrez vous et dépassez vos limites grâce à une activité hors du commun</p>
+              <a href="#" class="carousel-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel2-item--3">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+              <h2 class="carousel-item__subtitle">Echange</h2>
+              <h1 class="carousel-item__title">Découverte</h1>
+              <p class="carousel-item__description">Des échanges linguistiques et découverte de nouveaux lieux</p>
+              <a href="#" class="carousel-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel-item carousel-item--4">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+              <h2 class="carousel-item__subtitle">Séjours</h2>
+              <h1 class="carousel-item__title">La plage </h1>
+              <p class="carousel-item__description">Profitez de nos séjours paradisiaques</p>
+              <a href="#" class="carousel-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+        
+      <div class="carousel-item carousel-item--5">
+          <div class="carousel-item__image"></div>
+          <div class="carousel-item__info">
+            <div class="carousel-item__container">
+              <h2 class="carousel-item__subtitle">Séjour</h2>
+              <h1 class="carousel-item__title">Nos locaux</h1>
+              <p class="carousel-item__description">On dispose de nombreux locaux pour vous accueillir</p>
+              <a href="#" class="carousel-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="sect2">
+      <h1 class="main-title titre2">Nos offres promotionnelles</h1>
+
+      <!-- Cette div contient un carousel entier, c'est là que l'on répète les slides-->
+      <div class="carousel2">
+
+        <!-- Cette div contient les boutons qui servent à changer de slide sur le carousel -->
+        <div class="carousel2__nav">
+        <span id="moveLeft2" class="carousel2__arrow">
+              <svg class="carousel2__icon" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+              </svg>
+          </span>
+          <span id="moveRight2" class="carousel2__arrow" >
+            <svg class="carousel2__icon"  width="24" height="24" viewBox="0 0 24 24">
+              <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+            </svg>    
+          </span>
+        </div>
+
+        <!-- Ce bloc constitue une slide, c'est ce bloc qui est répété pour chaque slide -->
+        <div class="carousel2-item carousel2-item--1">
+
+          <!-- ici on a l'image, toutes les propriétés et l'image à ajouter sont définies dans le css -->
+          <div class="carousel2-item__image"></div>
+
+          <!-- Ce bloc contient la partie qui contient les textes de la slide -->
+          <div class="carousel2-item__info">
+
+            <!-- Ce bloc appelé container sert juste pour l'agencement -->
+            <div class="carousel2-item__container">
+
+              <!-- Ici on a un surtitre, j'aime bien en mettre ça fait joli -->
+              <h2 class="carousel2-item__subtitle">Activité Terrestre</h2>
+
+              <!-- Ici c'est le titre principal du slider -->
+              <h1 class="carousel2-item__title">BMX</h1>
+
+              <!-- Là on retrouve le petit texte descriptif, pas un truc long -->
+              <p class="carousel2-item__description">Découvrez vous et dépassez vos limites grâce à une activité hors du commun</p>
+
+              <!-- ça c'est le lien pour aller vers la page associé à l'élement dont parle le slider -->
+              <a href="#" class="carousel2-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel2-item carousel2-item--2">
+          <div class="carousel2-item__image"></div>
+          <div class="carousel2-item__info">
+            <div class="carousel2-item__container">
+              <h2 class="carousel2-item__subtitle">Activité aquatique</h2>
+              <h1 class="carousel2-item__title">Kayak</h1>
+              <p class="carousel2-item__description">Découvrez vous et dépassez vos limites grâce à une activité hors du commun</p>
+              <a href="#" class="carousel2-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel2-item carousel2-item--3">
+          <div class="carousel2-item__image"></div>
+          <div class="carousel2-item__info">
+            <div class="carousel2-item__container">
+              <h2 class="carousel2-item__subtitle">Echange</h2>
+              <h1 class="carousel2-item__title">Découverte</h1>
+              <p class="carousel2-item__description">Des échanges linguistiques et découverte de nouveaux lieux</p>
+              <a href="#" class="carousel2-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="carousel2-item carousel2-item--4">
+          <div class="carousel2-item__image"></div>
+          <div class="carousel2-item__info">
+            <div class="carousel2-item__container">
+              <h2 class="carousel2-item__subtitle">Séjours </h2>
+              <h1 class="carousel2-item__title">La plage </h1>
+              <p class="carousel2-item__description">Profitez de nos séjours paradisiaques</p>
+              <a href="#" class="carousel2-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+        
+      <div class="carousel2-item carousel2-item--5">
+          <div class="carousel2-item__image"></div>
+          <div class="carousel2-item__info">
+            <div class="carousel2-item__container">
+              <h2 class="carousel2-item__subtitle">Séjour</h2>
+              <h1 class="carousel2-item__title">Nos locaux</h1>
+              <p class="carousel2-item__description">On dispose de nombreux locaux pour vous accueillir</p>
+              <a href="#" class="carousel2-item__btn">Explorer</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <footer>
+      <div>
+          <h3>Sport Koh</h3>
+          <ul>
+              <li><a href="">Questions</a></li>
+              <li><a href="">Aide</a></li>
+          </ul>
+      </div>
+      <div>
+          <h3>L'entreprise</h3>
+          <ul>
+              <li><a href="">A propos</a></li>
+              <li><a href="">Mentions légales</a></li>
+              <li><a href="">Politique de confidentialité</a></li>
+              <li><a href="">Conditions d'utilisation</a></li>
+              <li><a href="">Contactez nous</a></li>
+              <li><a href="">Paramètres des Cookies</a></li>
+          </ul>
+      </div>
+      <div>
+          <h3>Nos réseaux</h3>
+          <a href="instagram.com"><img src="./images/in.png" alt="logo instagram" width=50></a>
+          <a href="twitter.com"><img src="./images/tw.png" alt="logo twitter" width=50></a>
+      </div>
+  </footer>
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
+</html>
