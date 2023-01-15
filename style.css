@@ -30,6 +30,7 @@ header img {
  
 }
 
+/* permet aux éléments de la liste d'être alignés horizontalement*/
 .normal ul {
     list-style-type: none;
     color: #EEEEEE;
@@ -39,6 +40,8 @@ header img {
     justify-content: space-around;
 }
 
+
+/*Couleurs des liens*/
 .normal ul :link {
     color : #EEEEEE;
     text-decoration: none;
@@ -58,6 +61,7 @@ header img {
     display: none;
 }
 
+/* permet aux sections de se mettre les unes en dessous des autres si la page est réduite*/
 section {
     display: flex;
     flex-wrap: wrap;
@@ -91,10 +95,12 @@ th, td {
     text-align: left;
 }
 
+/* couleur orange quand on passe la souris sur le tableau*/
 tr:hover {
     background-color: #EE9E15;
 }
 
+/*Placement des images de voyage*/
 .mer {
     display: block;
     margin-left: auto;
@@ -148,6 +154,7 @@ footer p {
     padding-top: 10%;
 }
 
+/* Polices*/
 @font-face {
     font-family: 'vegan_style';
     src: url('fonts/vegan_style/Vegan/ Style/ Personal/ Use.ttf') format('ttf');
@@ -159,6 +166,8 @@ footer p {
         url('fonts/coolvetica/coolvetica/ condensed/ rg.otf') format('otf');
 }
 
+
+/*Adaptabilité quand l'écran est plus petit que 600 px*/
 @media screen and (max-width: 600px) { 
     .normal {
         display: none;
